@@ -16,8 +16,8 @@ build:
     - python setup.py install --single-version-externally-managed --record=record.txt
   entry_points:
     - orange-canvas = Orange.canvas.__main__:main
-  osx_is_app: True
-  skip: True        # [py2k]
+  osx_is_app: true
+  skip: true        # [py2k]
 
 requirements:
   build:
